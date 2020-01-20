@@ -13,8 +13,10 @@ class GoalsVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     @IBAction func addGoalButtonWasPressed(_ sender: UIButton) {
-        print("button was pressed")
+        tableView.isHidden = false
     }
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
