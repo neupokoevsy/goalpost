@@ -10,7 +10,7 @@
         <!--GoalsVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="GoalsVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoalsVC" id="BYZ-38-t0r" customClass="GoalsVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
                                         <state key="normal" image="addGoal"/>
                                         <connections>
                                             <action selector="addGoalButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jbg-do-WiN"/>
-                                            <segue destination="LQH-On-krz" kind="presentation" id="5a0-Zz-tgK"/>
+                                            <segue destination="LQH-On-krz" kind="presentation" id="fzM-hi-fuQ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -177,7 +177,7 @@
         <!--Create GoalVC-->
         <scene sceneID="DVX-Hj-xFh">
             <objects>
-                <viewController id="LQH-On-krz" customClass="CreateGoalVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGoalVC" id="LQH-On-krz" customClass="CreateGoalVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jRA-ng-n5F">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -244,14 +244,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="340" height="190"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="What is your goal?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dWg-Vq-ewV">
-                                                <rect key="frame" x="0.0" y="0.0" width="340" height="164"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="340" height="160"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <color key="textColor" systemColor="placeholderTextColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="160" id="2jn-e3-yCC"/>
+                                                </constraints>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose one" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Qe-y4-afF">
-                                                <rect key="frame" x="0.0" y="172" width="70.5" height="18"/>
+                                                <rect key="frame" x="0.0" y="168" width="70.5" height="22"/>
                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>

@@ -13,7 +13,14 @@ class GoalsVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     @IBAction func addGoalButtonWasPressed(_ sender: UIButton) {
-        tableView.isHidden = false
+//
+//Custom animation goes here. But I don't like it.
+//
+        
+//        guard let createGoalVC = storyboard?.instantiateViewController(identifier: "CreateGoalVC") else {
+//            return
+//        }
+//        presentDetail(createGoalVC)
     }
     
     override func viewDidLoad() {
