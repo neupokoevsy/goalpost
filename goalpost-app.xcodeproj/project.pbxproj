@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51BB8EC23DF5AF900888A23 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BB8EB23DF5AF900888A23 /* FinishGoalVC.swift */; };
 		A52468A923D775A60063F131 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52468A823D775A60063F131 /* GoalType.swift */; };
 		A52468AB23D77B870063F131 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52468AA23D77B870063F131 /* CreateGoalVC.swift */; };
 		A52468AD23D77D760063F131 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52468AC23D77D760063F131 /* UIViewControllerExt.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A51BB8EB23DF5AF900888A23 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		A52468A823D775A60063F131 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		A52468AA23D77B870063F131 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		A52468AC23D77D760063F131 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				A53F629723D4E22F006949C9 /* GoalsVC.swift */,
 				A52468AA23D77B870063F131 /* CreateGoalVC.swift */,
+				A51BB8EB23DF5AF900888A23 /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				A53F629423D4E22F006949C9 /* AppDelegate.swift in Sources */,
 				A52468AD23D77D760063F131 /* UIViewControllerExt.swift in Sources */,
 				A52468A923D775A60063F131 /* GoalType.swift in Sources */,
+				A51BB8EC23DF5AF900888A23 /* FinishGoalVC.swift in Sources */,
 				A53F629E23D4E22F006949C9 /* goalpost_app.xcdatamodeld in Sources */,
 				A52468B123D78C8E0063F131 /* UIBtnExt.swift in Sources */,
 				A52468AB23D77B870063F131 /* CreateGoalVC.swift in Sources */,
