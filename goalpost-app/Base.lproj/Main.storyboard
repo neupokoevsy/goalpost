@@ -363,6 +363,9 @@
                                             <constraint firstAttribute="width" secondItem="aJl-BZ-zD7" secondAttribute="height" multiplier="35:32" id="MBQ-fS-VCQ"/>
                                         </constraints>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backButtonWasPressed:" destination="ZiV-h4-XgO" eventType="touchUpInside" id="F0V-1j-Uk2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -438,6 +441,7 @@
                     </view>
                     <connections>
                         <outlet property="createGoalButton" destination="hLr-hd-xep" id="7LP-hc-6XN"/>
+                        <outlet property="pointsTextField" destination="So8-8M-qjD" id="6wu-ks-CeF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppJ-dn-sPh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
